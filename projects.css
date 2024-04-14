@@ -1,0 +1,119 @@
+.projects {
+    font-family: "Madimi One";
+}
+
+.wdcards, .vecards, .pgcards, .gdcards {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin-left: 75px;
+}
+
+.wd, .ve, .pg, .gd {
+    display: flex;
+    padding: 16px;
+    transition: all .2s ease-in-out;
+}
+
+.wd:hover, .ve:hover, .pg:hover, .gd:hover {
+    transform: scale(1.1); 
+}
+
+.wdcard, .vecard{
+    background-color: #e1ff00;
+    border-radius: 0.25rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 387px;
+}
+
+.pgcard, .gdcard {
+    border: 5px solid #e1ff00;
+    border-radius: 0.25rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 387px;
+}
+
+.wdimage, .veimage {
+    background-color: #000;
+    border: 5px solid #e1ff00;
+}
+/* .pic1 for square images */
+.pic1 {
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* .pic2 for landscape images */
+.pic2 {
+    height: 200px;
+    width: 340px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* .pic3 for potrait images */
+.pic3 {
+    height: 200px;
+    width: 140px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* .pic3 for potrait images */
+.pic4 {
+    height: 350px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    image-rendering: optimizeQuality;
+    image-resolution: 300dpi;
+}
+
+.wdcardcontent, .vecardcontent, .pgcardcontent, .gdcardcontent {
+    padding: 16px;
+    background-color: #E1FF00;
+}
+
+.wdcardtitle, .vecardtitle {
+    color: #000;
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin: 0px;
+    max-width: 348px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.wdcardbutton, .vecardbutton, .pgcardbutton, .gdcardbutton {
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 2px solid #000;
+    background-color: #e1ff00;
+    float: right;
+    margin-top: 10px;
+    transition: all .2s ease-in-out;
+}
+
+.wdcardbutton:hover, .vecardbutton:hover, .pgcardbutton:hover, .gdcardbutton:hover {
+    cursor: pointer;
+    transform: scale(1.1); 
+    text-decoration: underline;
+}
+

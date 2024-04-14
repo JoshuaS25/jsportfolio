@@ -1,0 +1,66 @@
+.home {
+    padding-top: 180px;
+    padding-left: 50px;
+}
+
+.home .h1-home {
+    color: #555;
+    font-family: "Madimi One";
+}
+
+.home p, .p-text {
+    font-family: "Madimi One";
+    background-image: linear-gradient(to bottom right, #e1ff00, #ff9900);
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 40px;
+    color: transparent;
+}
+
+.p-text:hover {
+    text-decoration: underline 5px solid #E1FF00;
+}
+
+.p-text .tooltip_text_span {
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    color: #e1ff00;
+    font-size: 12px;
+    background-color: #000;
+    border: 3px solid #e1ff00;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+}
+
+#top1 {
+    top: 300px; /* Adjust the top position as needed */
+    left: 345px; /* Centering the tooltip horizontally */
+    transform: translateX(-50%); /* Centering the tooltip horizontally */
+}
+
+#top2 {
+    top: 310px; /* Adjust the top position as needed */
+    left: 600px; /* Centering the tooltip horizontally */
+    transform: translateX(-50%); /* Centering the tooltip horizontally */
+}
+
+#top3 {
+    top: 310px; /* Adjust the top position as needed */
+    left: 895px; /* Centering the tooltip horizontally */
+    transform: translateX(-50%); /* Centering the tooltip horizontally */
+}
+
+#top4 {
+    top: 310px; /* Adjust the top position as needed */
+    left: 1200px; /* Centering the tooltip horizontally */
+    transform: translateX(-50%); /* Centering the tooltip horizontally */
+}
+  
+.p-text:hover .tooltip_text_span {
+    visibility: visible;
+}
+
+.homebr {
+    display: none;
+}

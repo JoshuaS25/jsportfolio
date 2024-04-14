@@ -1,0 +1,202 @@
+@media screen and (max-height: 300px) {
+    ul {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 1257px) {
+
+    html, body { 
+        overflow-x: hidden;
+    }
+
+    .home {
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+
+    .body {
+        position: relative;
+    }
+
+    .pfp {
+        border: 3px solid #e1ff00;
+        border-radius: 50%;
+        width: 50px;
+        padding: 2px;
+        position: absolute;
+        top: 15px;
+        left: 15px;
+    }
+
+    #top1, #top2, #top3, #top4 {
+        display: inline-block;
+    }
+
+    .h1-home {
+        text-align: center;
+    }
+
+    .homep {
+        text-align: center;
+    }
+
+    .pipe_separater {
+        display: none;
+    }
+
+    .homebr {
+        display: inline;
+    }
+
+    footer {
+        color: #555;
+        text-align: center;
+        padding: 20px 0; /* Adjusted padding */
+        bottom: 0;
+        width: 100%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: absolute;
+        margin-top: auto;
+    }
+
+    footer p {
+        margin: -10px;
+        font: bold 14px/1.4 'Open Sans', Arial, sans-serif;
+    }
+
+    .abtimg1 {
+        width: 100%;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .abtimg1 .abtimage1 {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        display: block;
+        margin: auto;
+        border: 3px solid #e1ff00;
+    }
+
+    .aboutinfo1 {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+    
+    .aboutinfo1 .aboutp1 {
+        width: 100%;
+        font-size: 24.5px;
+        text-align: center;
+        color: #e1ff00;
+        font-family: "Madimi One";
+    }
+
+    .abtimg2 {
+        width: 100%;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .abtimg2 .abtimage2  {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        display: block;
+        margin: auto;
+        border: 3px solid #e1ff00;
+    }
+
+    .aboutinfo2 {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+    
+    .aboutinfo2 .aboutp2 {
+        width: 100%;
+        font-size: 24.5px;
+        text-align: center;
+        color: #e1ff00;
+        font-family: "Madimi One";
+    }
+
+    .cert_title {
+        font-size: 36px;
+        text-align: center;
+        color: transparent;
+        margin-bottom: 10px;
+        background-clip: text;
+        -webkit-background-clip: text;
+        background-image: linear-gradient(to bottom right, #e1ff00, #ff9900);
+    }
+
+    .certimage {
+        width: 90%;
+        height: 280px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border: 3px solid #e1ff00;
+    }
+
+    .certifications {
+        color: #e1ff00;
+        margin-left: -100px;
+        width: 100%; 
+        font-size: 28px;
+        font-family: "Madimi One";
+    }
+
+    #wdprojects, #veprojects, #gdprojects, #photoprojects {
+        margin-left: -40px;
+    }
+
+    .wdcards, .vecards, .pgcards, .gdcards {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .wd, .ve, .pg, .gd {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -3%;
+    }
+
+    .wd:hover, .ve:hover, .pg:hover, .gd:hover {
+        transform: none; 
+    }
+
+    .wdcardbutton:hover, .vecardbutton:hover, .pgcardbutton:hover, .gdcardbutton:hover   {
+        cursor: none;
+        transform: none;
+        animation: none;
+    }
+
+    .back-to-top {
+        bottom: 1rem;
+	    right: 1rem;
+        width: 60px;
+        height: 60px;
+    }
+
+    .back-to-top:hover {
+        background-color: #000
+    }
+    
+    .back-to-top:hover i {
+        color: #e1ff00;
+        transform: none;
+        transition: none;
+    }
+}

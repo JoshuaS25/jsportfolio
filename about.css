@@ -1,0 +1,93 @@
+.abtimg1 {
+    width: 700px;
+    height: 480px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+.abtimg1 .abtimage1 {
+    width: 400px;
+    height: 400px;
+    margin-top: 40px;
+    margin-left: 150px;
+    border-radius: 50%;
+    border: 3px solid #e1ff00;
+}
+
+.aboutinfo1 {
+    width: 700px;
+    height: 480px;
+    float: right;
+    margin-top: 25px;
+    margin-right: 50px;
+}
+
+.aboutinfo1 .aboutp1 {
+    font-size: 24.5px;
+    color: #e1ff00;
+    text-align: left;
+    font-family: "Madimi One";
+    padding: 0 15px 15px 15px;
+}
+
+.abtimg2 {
+    width: 700px;
+    height: 480px;
+    float: right;
+    margin-top: 25px;
+    margin-right: 50px;
+}
+
+.abtimg2 .abtimage2  {
+    width: 400px;
+    height: 400px;
+    margin-top: 40px;
+    margin-left: 150px;
+    border-radius: 50%;
+    border: 3px solid #e1ff00;
+}
+
+.aboutinfo2 {
+    width: 700px;
+    height: 480px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+.aboutinfo2 .aboutp2 {
+    font-size: 24.5px;
+    color: #e1ff00;
+    text-align: right;
+    font-family: "Madimi One";
+    padding: 0 15px 15px 15px;
+}
+
+.cert_title {
+    font-size: 100px;
+    text-align: center;
+    color: transparent;
+    margin-bottom: 10px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to bottom right, #e1ff00, #ff9900);
+}
+
+.certimage {
+    width: 60%;
+    height: 650px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #e1ff00;
+}
+
+.certifications {
+    color: #e1ff00;
+    font-size: 35px;
+    float: left;
+    position: relative;
+    left: 23%;
+    font-family: "Madimi One";
+}

@@ -1,0 +1,218 @@
+/* Defaults */
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    background: #000;
+}
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    position: relative;
+    box-sizing: inherit;
+    min-height: 100%;
+    padding-bottom: 6.74rem;
+    display: flex;
+    flex-direction: column;
+}
+/* Custom Scrollbar*/
+*::-webkit-scrollbar {
+    height: 10px;
+    width: 5px;
+}
+
+  *::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color: #000000;
+}
+  
+  *::-webkit-scrollbar-track:hover {
+    background-color: #000000;
+}
+  
+  *::-webkit-scrollbar-track:active {
+    background-color: #000000;
+}
+  
+  *::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #E1FF00;
+}
+  
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: #E1FF00;
+}
+  
+  *::-webkit-scrollbar-thumb:active {
+    background-color: #E1FF00;
+}
+/* Navigation Bar*/
+.pfp {
+    border: 3px solid #e1ff00;
+    border-radius: 50%;
+    width: 60px;
+    padding: 5px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#nav ul { 
+    margin: 0; 
+    padding: 0; 
+    list-style: none; 
+    display: flex;
+    justify-content: flex-end; /* Aligns navigation to the right */
+    position: relative; /* Added position relative */
+    z-index: 1; /* Ensure navigation is above the image */
+}
+
+#nav li { 
+    display: table-cell; 
+    position: relative; 
+    padding: 15px 0;
+}
+
+#nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    padding: 15px 20px;
+    font: bold 14px/1.4 'Open Sans', Arial, sans-serif;
+    position: relative;
+    color: #555; /* Set default link color to grey */
+}
+
+#nav a.active { /* Style for active link */
+    color: #e1ff00; /* Set active link color to yellow */
+}
+
+#nav a:hover {
+    color: #e1ff00;
+}
+
+#nav a:not(.active):not(:hover) {
+    color: #555;
+}
+
+#nav a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #e1ff00;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+#nav a:hover:after { 
+    width: 100%; 
+    left: 0; 
+}
+/* Common */
+.gradent_text_span {
+    color: #555;
+}
+
+.title {
+    font-family: "Madimi One";
+    background-image: linear-gradient(to bottom right, #e1ff00, #ff9900);
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 40px;
+    color: transparent;
+    padding-left: 50px;
+}
+/* Footer */
+footer {
+    color: #555;
+    text-align: center;
+    padding: 20px 0; /* Adjusted padding */
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    margin-top: auto;
+}
+
+footer p {
+    margin-bottom: -30px; /* Adjust the margin to move the text down */
+    font: bold 14px/1.4 'Open Sans', Arial, sans-serif;
+    margin-left: 550px;
+    margin-right: 550px;
+}
+
+footer p:hover {
+    color: #e1ff00;
+    cursor: pointer;
+}
+
+.icons {
+    display: inline-block;
+    justify-content: center; /* Align items to the right */
+    margin-top: 50px; /* Adjust the margin as needed */
+}
+
+.icons a {
+    padding: 5px;
+    width: 40px;
+    color: #555555;
+    text-decoration:none
+}
+
+.icons a:hover {
+    color: #e1ff00;
+}
+
+
+.back-to-top {
+	position: fixed;
+	bottom: 2rem;
+	right: 2rem;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #000;
+    border: 2px solid  #e1ff00;
+	border-radius: 0.5rem;
+	padding: 0.5rem;
+    width: 75px;
+	text-decoration: none;
+	transition: 0.5s ease-out;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.back-to-top i {
+	color: #E1FF00;
+	font-size: 3rem;
+	transition: 0.5s ease-out;
+}
+
+.back-to-top.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.back-to-top:hover {
+    background-color: #e1ff00;
+}
+
+.back-to-top:hover i {
+    color: #000;
+	transform: translateY(-4px);
+    transition: transform 0.5s ease-in-out;
+}
